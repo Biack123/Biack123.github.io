@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Poppins:ital,wght@0,300;0,500;1,500;1,600;1,700&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.showcase{
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  align-content: space-between;
+  align-items: center;
+  background: #111;
+  color: #fff;
+}
+.showcase header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.video {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+.text {
+  position: relative;
+  z-index: 10000;
+}
+.text h2 {
+  font-size: 5em;
+  font-weight: 800;
+  line-height: 1em;
+  text-transform: uppercase;
+
+}
+.text h3 {
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 1em;
+  text-transform: uppercase;
+
+}
+.text p{
+  font-size: 1.1em;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
+}
+.text a{
+  display: inline-block;
+  font-size: 1em;
+  background: #fff;
+  padding: 10px;
+  text-decoration: none;
+  color: #111;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+.text a:hover{
+  letter-spacing: 4px;
+  
+}
+
+.text1{
+  position: relative;
+  z-index: 10000;
+}
+.text1.h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 4em;
+  display: block;
+  position: absolute;
+  text-shadow: gray;
+  text-transform: initial;
+  text-orientation: sideways;
+  text-align: left;
+
+}
+
+.text1.h3{
+  justify-content: space-between;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+
+
+}
+
+.text1.p{
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3em;
+  width: 40vw
+}
+
+.organizeT{
+  display: flex;
+  float: right;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social{
+  position: absolute;
+  bottom: 20px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.social li{
+  list-style: none;
+  margin-right: 20px;
+  transform: scale(0.8);
+  transition: 0.5s;
+}
+.social li a:hover{
+  transform: scale(0.6) translateY(-15px);
+}
+.menu{
+  display: none;
+}
+
+.space1{
+  background-image: linear-gradient(to right, rgb(160, 157, 157) 0%, rgb(29, 28, 28) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  position: absolute;
+  top: 625px;
+  height: 200px;
+  width: 100%;
+}
+
+.ContTv{
+
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 11em;
+  background: whitesmoke;
+  height: 2000px;
+  display: flex;
+  align-items: center;
+}
+
+.conclusion{
+  left: 15em;
+  top: 400px;
+}
+
+.space2{
+  background-image: linear-gradient(to right, rgb(194, 193, 193), rgb(0, 0, 0));
+  display: flex;
+  position: absolute;
+  top: 1800px;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+
+
+}
+
+@media (max-width: 991px){
+  .space1{
+    top: 530px;
+  }
+  .space2{
+    top: 2000px;
+  }
+  .ContTv{
+    padding-left: 0em;
+  }
+  .text1.h3{
+    font-size: 1.8em;
+  }
+  .text1.p{
+    font-size: 1.0;
+  }
+  .conclusion{
+    left: 25vw;
+  }
+  .showcase, .showcase header{
+    padding: 40px;
+  }
+
+  .text h2{
+    font-size: 3em;
+  }
+
+  .text h3{
+    font-size: 2em;
+  }
+}

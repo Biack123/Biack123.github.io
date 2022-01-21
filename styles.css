@@ -190,7 +190,7 @@
 
 }
 
-@media (max-width: 991px){
+@media (max-width: 991px) and (min-height: 700px){
   .logo{
     font-size: 3.0em;
   }
@@ -203,7 +203,7 @@
     top: 100vh;
   }
   .space2{
-    top: 230vh;
+    top: 270vh;
   }
   .ContTv{
     padding-left: 0;
@@ -218,7 +218,7 @@
   }
   .conclusion{
     left: 25vw;
-    top: 20vh;
+    top: 40vh;
   }
   .showcase, .showcase header{
     padding: 40px;
@@ -239,5 +239,57 @@
 
   .text a{
     font-size: 1.5em;
+  }
+}
+
+@media (max-width: 991px) and (max-height: 699px){
+  .logo{
+    font-size: 1.0em;
+  }
+  .social li{
+    transform: scale(1.5);
+    margin-left: 75vw;
+  }
+  .space1{
+    height: 20vh;
+    top: 100vh;
+  }
+  .space2{
+    top: 200vh;
+  }
+  .ContTv{
+    padding-left: 0;
+    top: 150vh;
+    left: 0;
+  }
+  .text1.h3{
+    font-size: 1.5em;
+  }
+  .text1.p{
+    font-size: 1.0em;
+  }
+  .conclusion{
+    left: 25vw;
+    top: 40vh;
+  }
+  .showcase, .showcase header{
+    padding: 40px;
+  }
+
+  .text h2{
+    font-size: 3.0em;
+  }
+
+  .text h3{
+    font-size: 2.0em;
+  }
+
+  .text p{
+    font-size: 1.0em;
+
+  }
+
+  .text a{
+    font-size: 1.0em;
   }
 }

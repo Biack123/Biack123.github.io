@@ -157,7 +157,7 @@
   z-index: 0;
   position: absolute;
   top: 100vh;
-  height: 20vh;
+  height: 30vh;
   width: 100%;
 }
 
@@ -174,7 +174,7 @@
 
 .conclusion{
   left: 15em;
-  top: 400px;
+  top: 40vh;
 }
 
 .space2{
@@ -196,10 +196,11 @@
     margin-left: 75vw;
   }
   .space1{
+    height: 20vh;
     top: 100vh;
   }
   .space2{
-    top: 250vh;
+    top: 230vh;
   }
   .ContTv{
     padding-left: 0;
@@ -207,23 +208,33 @@
     left: 0;
   }
   .text1.h3{
-    font-size: 1.8em;
+    font-size: 2.0em;
   }
   .text1.p{
-    font-size: 1.0;
+    font-size: 1.8em;
   }
   .conclusion{
     left: 25vw;
+    top: 20vh;
   }
   .showcase, .showcase header{
     padding: 40px;
   }
 
   .text h2{
-    font-size: 3em;
+    font-size: 3.5em;
   }
 
   .text h3{
-    font-size: 2em;
+    font-size: 2.5em;
+  }
+
+  .text p{
+    font-size: 1.5em;
+
+  }
+
+  .text a{
+    font-size: 1.5em;
   }
 }

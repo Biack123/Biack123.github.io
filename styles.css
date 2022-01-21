@@ -191,6 +191,9 @@
 }
 
 @media (max-width: 991px){
+  .logo{
+    font-size: 3.0em;
+  }
   .social li{
     transform: scale(1.5);
     margin-left: 75vw;
@@ -222,11 +225,11 @@
   }
 
   .text h2{
-    font-size: 3.5em;
+    font-size: 5.0em;
   }
 
   .text h3{
-    font-size: 2.5em;
+    font-size: 4.0em;
   }
 
   .text p{
